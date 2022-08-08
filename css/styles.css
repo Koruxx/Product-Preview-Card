@@ -1,0 +1,186 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: #e8e8e8;
+}
+
+.mobile {
+  background-color: white;
+  width: 375px;
+  height: auto;
+  overflow: hidden;
+  border: 0 solid transparent;
+  border-radius: 10px;
+  margin: 50px auto 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mobile img {
+  width: 375px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+}
+
+.mobile .cart {
+  height: 20px;
+  width: 20px;
+  margin: auto 10px auto 10px;
+}
+
+.mobile h1 {
+  font-family: "Fraunces", serif;
+  font-size: 35px;
+  margin: 10px auto;
+  line-height: 35px;
+}
+
+.mobile h2 {
+  color: #70768F;
+  font-weight: lighter;
+  letter-spacing: 6px;
+  font-size: 14px;
+  margin: 20px auto 15px auto;
+}
+
+.mobile p {
+  font-size: 16px;
+  color: #70768F;
+}
+
+.mobile a {
+  width: auto;
+  transform: scale(110%);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  background-color: #52AD8C;
+  border: 0 solid transparent;
+  border-radius: 10px;
+  margin: 25px 10px 25px 10px;
+  padding: 15px 0 15px 0;
+  font-size: 15px;
+}
+
+.mobile a:hover {
+  transform: scale(115%);
+  background-color: #428a70;
+}
+
+.mobile .price-sale {
+  display: inline-block;
+  font-family: "Fraunces", serif;
+  color: #52AD8C;
+  font-size: 30px;
+  margin: auto 30px auto auto;
+}
+
+.mobile .price-og {
+  color: #70768F;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+}
+
+.lower-mobile {
+  margin: auto 25px auto 25px;
+}
+
+.desktop {
+  background-color: white;
+  width: 1440px;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  border: 0 solid transparent;
+  border-radius: 10px;
+  margin: 50px auto 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.desktop img {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  transform: scale(105%);
+}
+
+.desktop h2 {
+  font-weight: lighter;
+  letter-spacing: 14px;
+  color: #70768F;
+  font-size: 25px;
+}
+
+.desktop h1 {
+  font-family: "Fraunces", serif;
+  font-size: 100px;
+  line-height: 100px;
+  align-content: left;
+  margin: 20px 0 0 0;
+}
+
+.desktop p {
+  font-size: 35px;
+  color: #70768F;
+  margin: 20px 0 20px 0;
+}
+
+.desktop .cart {
+  display: inline-block;
+  position: relative;
+  float: left;
+  height: 35px;
+  width: 35px;
+  margin: auto 20px auto 10px;
+}
+
+.desktop a {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  background-color: #52AD8C;
+  border: 0 solid transparent;
+  margin: 15px 0 0 0;
+  border-radius: 10px;
+  font-size: 35px;
+  align-items: center;
+}
+
+.desktop a:hover {
+  transform: scale(105%);
+  background-color: #428a70;
+}
+
+.desktop .price-sale {
+  display: flex;
+  position: relative;
+  font-family: "Fraunces", serif;
+  color: #52AD8C;
+  font-size: 90px;
+  margin: 0;
+}
+
+.desktop .price-og {
+  color: #70768F;
+  font-size: 30px;
+  margin: 0 auto 0 80px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.right-desktop {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 70px 30px 85px;
+}
