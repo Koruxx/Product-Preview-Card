@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://koruxx.github.io/Product-Preview-Card/)
+- Solution URL: [GitHub Pages](https://koruxx.github.io/Product-Preview-Card/)
 
 ## My process
 
